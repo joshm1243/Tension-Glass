@@ -1,0 +1,60 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(39, 39, 39);
+}
+
+.wrapper ul {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+
+.wrapper a {
+    padding: 10px;
+    padding-bottom: 3px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 15px;
+}
+
+.wrapper a:hover {
+    border-radius: 5px;
+}
+
+
+.purple a {
+    border-bottom: solid 4px #f311ff;
+}
+
+.purple a:hover {
+    /*background-color: #FF1178;*/
+    background-color: #f311ff;;
+}
+
+.green a {
+    border-bottom: solid 4px #7CFF01;
+}
+
+.green a:hover {
+    background-color: #7CFF01;
+    color: #000000;
+}
+
+.cyan a {
+    border-bottom: solid 4px #01FFF4;
+}
+
+.cyan a:hover {
+    background-color: #01FFF4;
+    color: #000000;
+}
+
+.pink a {
+    border-bottom: solid 4px #ff0066;
+}
+
+.pink a:hover {
+    background-color: #ff0066;
+}

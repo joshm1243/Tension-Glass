@@ -1,0 +1,9 @@
+.wrapper {
+    color: white;
+}
+
+.events {
+    padding: 5px;
+    text-align: center; 
+    background-color: rgb(38, 38, 38);
+}

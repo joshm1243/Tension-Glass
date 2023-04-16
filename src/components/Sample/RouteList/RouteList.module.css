@@ -1,0 +1,44 @@
+.wrapper {
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.route {
+    display: flex;
+}
+
+.route:nth-of-type(2n) {
+    background-color: rgb(56, 56, 56);
+}
+
+.route:hover {
+    background-color: rgb(83, 83, 83);
+    cursor: pointer;
+}
+
+.route div {
+    flex: 1;
+}
+
+.route div:not(.button) {
+    padding: 10px;
+}
+
+.add_new_route {
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+}
+
+.add_new_route:hover {
+    background-color: rgb(61, 61, 61);
+    cursor: pointer;
+}
+
+.button {
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: rgb(255, 0, 102);
+    cursor: pointer;
+}

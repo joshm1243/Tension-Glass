@@ -1,0 +1,47 @@
+.wrapper {
+    text-align: center;
+    background-color: #202020;
+    box-shadow: -9px 10px 18px 4px #000000;
+    user-select: none;
+    margin: 20px;
+}
+
+.bar {
+    height: 5px;
+    background-color: rgba(255, 0, 89, 0.816);
+}
+
+
+.module_title {
+    font-size: 1.3em;
+    font-weight: 200;
+    padding: 10px;
+
+}
+
+.table_header {
+    display: flex;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.table_header div {
+    flex: 1;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.table_row {
+    display: flex;
+}
+
+.table_row div {
+    flex: 1;
+    padding: 10px;
+    
+}
+
+.table_input_row {
+    display: flex;
+}
+

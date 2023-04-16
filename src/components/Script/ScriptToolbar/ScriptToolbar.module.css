@@ -1,0 +1,27 @@
+.wrapper {
+    text-align: center;
+    background-color: #202020;
+    box-shadow: -9px 10px 18px 4px #000000;
+    user-select: none;
+    margin-bottom: 25px;
+}
+
+.bar {
+    height: 5px;
+    background-color: rgba(255, 0, 102, 0.833);
+}
+
+.buttons {
+    display: flex;
+    font-size: 1.1em;
+}
+
+.buttons div {
+    flex: 1;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.buttons div:hover {
+    background-color: #343434;
+}

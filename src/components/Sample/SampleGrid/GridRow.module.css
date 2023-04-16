@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+}
+
+.wrapper div {
+    flex: 1;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 200;
+}

@@ -1,0 +1,45 @@
+.wrapper {
+    padding: 30px;
+}
+
+.shots {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shots div {
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+}
+
+.shots .name {
+    font-size: 0.9em;
+    height: 5px;
+}
+
+.shots .value {
+    font-size: 1.2em;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.header > div {
+    background-color: #272727;
+    border-radius: 5px;
+}
+
+.header .code {
+    padding: 15px;
+    font-size: 1.5em;
+    margin-right: 25px;
+}
+
+.header .prompt {
+    flex: auto;
+    padding: 15px;
+    padding-top: 20px;
+    font-size: 1.15em;
+}

@@ -1,0 +1,33 @@
+.list_header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-right: 28px;
+    background-color: rgb(49, 49, 49);
+}
+
+.list {
+    height: 311px;
+    overflow-y: scroll;
+    background-color: rgb(27, 27, 27);
+}
+
+.list > div:nth-child(2n) {
+    background-color: rgb(35, 35, 35);
+}
+
+.search_wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.search_wrapper input {
+    width: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(53, 53, 53);
+    color: #FFFFFF;
+    font-size:1.2em;
+    padding: 5px;
+}

@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: color-change 8s linear infinite alternate both;
+}
+  
+.ident {
+    text-align: center;
+}
+
+.tension_heading {
+    font-size: 3em;
+}
+
+.tension_subheading {
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.tension_info {
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+.version {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+@keyframes color-change {
+    0% {
+        background: #13aae1;
+    }
+    25% {
+        background: #d4246d;
+    }
+    50% {
+        background: #962cff;
+    }
+    75% {
+        background: #992cff;
+    }
+    100% {
+        background: #ff2c80;
+    }
+}
