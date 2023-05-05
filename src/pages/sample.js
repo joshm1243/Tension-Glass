@@ -6,6 +6,7 @@ import NewRouteContainer from "@/components/Sample/NewRouteContainer/NewRouteCon
 import SampleSelect from "@/components/Sample/SampleSelect/SampleSelect";
 import SampleContainer from "@/components/Sample/SampleContainer/SampleContainer";
 import NetworkStatus from "@/components/Sample/NetworkStatus/NetworkStatus";
+import SampleGenerator from "@/components/Sample/SampleGenerator/SampleGenerator";
 
 export default function Sample() {
 
@@ -235,7 +236,6 @@ export default function Sample() {
 
     async function UpdateRoute(updatedRoute) {
 
-
         try {
 
             const response = await fetch("http://127.0.0.1:3000/api/cosmos/routes", {
@@ -361,6 +361,7 @@ export default function Sample() {
                         NextSample={NextSample}
                         PreviousSample={PreviousSample}
                     />
+                    <SampleGenerator routes={routes} />
                     
                 </div>
 
@@ -368,6 +369,10 @@ export default function Sample() {
                     <NetworkStatus samples={samples} Learn={Learn} />
                     <RoutingContainer routes={routes} SelectRoute={SelectRoute} AddRoute={AddRoute} RemoveRoute={DeleteRoute} />
                     <NewRouteContainer route={selectedRoute} UpdateRoute={UpdateRoute} />
+                </div>
+
+                <div>
+
                 </div>
 
             </div>

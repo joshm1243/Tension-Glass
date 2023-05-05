@@ -1,10 +1,11 @@
 .wrapper {
     display: flex;
+    justify-content: center;
 }
 
 .wrapper div {
-    flex: 1;
     height: 50px;
+    width: 50px;
     font-size: 1.5em;
     font-weight: 200;
 }

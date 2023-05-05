@@ -53,3 +53,17 @@
 .no_route_message {
     padding-bottom: 10px;
 }
+
+.table_cell {
+    display: flex;
+}
+
+.table_cell div {
+    font-size: 1em;
+    padding: 0px;
+}
+
+.table_cell input {
+    margin-left: 10px;
+    width: 50px;
+}

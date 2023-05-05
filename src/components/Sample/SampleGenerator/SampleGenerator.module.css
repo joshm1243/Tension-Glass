@@ -1,0 +1,116 @@
+.wrapper {
+    text-align: center;
+    background-color: #202020;
+    box-shadow: -9px 10px 18px 4px #000000;
+    user-select: none;
+    margin: 20px;
+}
+
+.bar {
+    height: 5px;
+    background-color: rgb(0, 255, 98);
+}
+
+.module_title {
+    font-size: 1.3em;
+    font-weight: 200;
+    padding: 10px;
+
+}
+
+.table_header {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.table_header div {
+    flex: 1;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.table_row {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.table_row div {
+    flex: 1;
+    padding: 0px;
+}
+
+.table_row input {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 300;
+    width: 75%;
+    font-size: 1.2em;
+    border: none;
+    border-bottom: solid 3px #00f2ff;
+    outline: none;
+    background-color: rgb(47, 47, 47);
+}
+
+.no_route_message {
+    padding-bottom: 10px;
+}
+
+.grid_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+}
+
+.grid div {
+    height: 10px;
+    width: 10px;
+    animation: colorChange 2s linear infinite;
+    margin: 2px;
+}
+
+
+.matched_routes {
+    font-size: 1.8em;
+    font-weight: 200;
+}
+
+.generate_sample_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.generate_sample_button div {
+    width: 74%;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: 200;
+    background-color: #343434;
+    text-align: center;
+}
+
+.generate_sample_button div:hover {
+    background-color: #505050;
+    cursor: pointer;
+}
+
+
+.grid_details {
+    flex: 1;
+}
+
+.heading_colour_bar {
+    background-color: #00dae5;
+    height: 3px;
+    margin-left: 40px;
+    margin-right: 40px;
+}

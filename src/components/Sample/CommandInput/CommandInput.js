@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import { Handle } from "reactflow"
 import styles from "./CommandInput.module.css"
 
 export default function CommandInput(props) {

@@ -6,8 +6,6 @@ export default async function handler(req, res) {
     const body = JSON.parse(req.body)
     const samples = JSON.stringify(body.samples)
 
-    console.log(body)
-
     if (req.method == "POST") {
 
         var renderResult = await axios.post("http://127.0.0.1:3001/api/samples/render", { "samples" : samples })

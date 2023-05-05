@@ -9,7 +9,8 @@ export default function NewRouteContainer({route, UpdateRoute}) {
         environment: "",
         time_of_day: "",
         emotion_1: "",
-        emotion_2: ""
+        emotion_2: "",
+        prefix: ""
     });
 
     var show_fields = false;
@@ -44,12 +45,18 @@ export default function NewRouteContainer({route, UpdateRoute}) {
                 route.route_id ? (
                     <>
                         <div className={styles.table_header}>
-                            <div>Route ID</div>
+                            <div className={styles.table_cell}>
+                                <div>RouteID</div>
+                                <div>Prefix</div>
+                            </div>
                             <div>Location</div>
                             <div>Environment</div>
                         </div>
                         <div className={styles.table_row}>
-                            <div>{route.route_id}</div>
+                            <div className={styles.table_cell}>
+                                <div>{route.route_id}</div>
+                                <div><input value={fields.prefix} onChange={e => UpdateField('prefix', e.target.value)}  /></div>
+                            </div>
                             <div><input value={fields.location} onChange={e => UpdateField('location', e.target.value)}  /></div>
                             <div><input value={fields.environment} onChange={e => UpdateField('environment', e.target.value)} /></div>
                         </div>

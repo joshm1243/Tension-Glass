@@ -6,6 +6,7 @@ export default function ScriptDetails({selectedElement}) {
     const line = selectedElement[1] ? selectedElement[1] : false;
     const element = selectedElement[2] ? selectedElement[2] : false;
 
+
     var elementElements;
     if (element) {
 
@@ -49,7 +50,7 @@ export default function ScriptDetails({selectedElement}) {
             
             elementElements = <>
                 <div>Type: Environment</div>
-                <div>Time of Day: {environment}</div>
+                <div>Environment: {environment}</div>
                 <div></div>
             </>
 
@@ -111,7 +112,7 @@ export default function ScriptDetails({selectedElement}) {
                             <div>Location: {block.prompt_elements.location}</div>
                             <div>Time of Day: {block.prompt_elements.time_of_day}</div>
                             <div>Environment: {block.prompt_elements.environment}</div>
-                            <div>Emotions: {block.prompt_elements.emotions}</div>
+                            <div>Emotions: {block.prompt_elements.emotions.join(", ")}</div>
                         </div>
                     </div>
                 ) : null

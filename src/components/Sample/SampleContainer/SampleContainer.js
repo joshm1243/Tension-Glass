@@ -7,6 +7,10 @@ export default function SampleContainer(props) {
 
     
 	const colours = {
+        "d1" : "#46ba18",
+        "d2" : "#368f13",
+        "d3" : "#296e0e",
+        "d4" : "#245e0c",
         "r1" : "#FF0000",
         "r2" : "#FF2A00",
         "r3" : "#FF3C00",
