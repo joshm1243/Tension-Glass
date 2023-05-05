@@ -1,7 +1,0 @@
-.channel_tiles {
-    display: grid;
-    grid-template-columns: repeat(5, 120px);
-    gap: 10px;
-    background-color: rgb(38, 38, 38);
-    overflow: auto;
-}
